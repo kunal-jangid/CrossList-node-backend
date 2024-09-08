@@ -1,0 +1,27 @@
+{
+  "name": "crosslist",
+  "version": "1.0.0",
+  "description": "A collaborative checklist app where you could just create a session for certain number of users to use a checklist together!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunal-jangid/CrossList-backend.git"
+  },
+  "author": "kunal-jangid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kunal-jangid/CrossList-backend/issues"
+  },
+  "homepage": "https://github.com/kunal-jangid/CrossList-backend#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.3",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mongodb": "^6.8.1"
+  }
+}
